@@ -7,3 +7,7 @@
     --botão-inativo: rgba(58, 55, 94, 0.5);
     --text-fundo: rgba(56, 55, 94, 0.3);
 }
+
+body {
+    background-color: var(--cor-de-fundo);
+}
