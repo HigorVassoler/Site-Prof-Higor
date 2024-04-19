@@ -68,5 +68,4 @@ body {
 .ativo {
     background-color: var(--botão-ativo);
     border-bottom: 4px solid var(--verde);
-
 }
