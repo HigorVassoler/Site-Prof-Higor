@@ -36,9 +36,20 @@ function calculaTempo(tempoObjetivo) {
     return dias + "dias " + horas + "horas " + minutos + "minutos " + segundos + "segundos";
 }
 
-function atualizaCronometro(){
+function atualizaCronometro() {
     document.getElementById("dias0").textContent = calculaTempo(tempos[0])[0];
     document.getElementById("horas0").textContent = calculaTempo(tempos[0])[1];
     document.getElementById("min0").textContent = calculaTempo(tempos[0])[2];
     document.getElementById("seg0").textContent = calculaTempo(tempos[0])[3];
+
+    for (let i = 0; i < contadores.length; i++) {
+        // contadores[i].textContent = calculaTempo(tempos[i]);
+    }
 }
+
+function comecaCronometro() {
+    atualizaCronometro();
+    setInterval(atualizaCronometro,1000);
+}
+
+comecaCronometro();
