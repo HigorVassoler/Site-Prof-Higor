@@ -1,1 +1,2 @@
-# VSCode3D
+Site feito por: Higor Vassoler
+Professor: Maisa
