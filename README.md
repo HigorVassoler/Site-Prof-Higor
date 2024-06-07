@@ -1,2 +1,2 @@
-Site feito por: Higor Vassoler
-Professor: Maisa
+- Site feito por: Higor Vassoler
+- Intruido pela professora Maisa, que é especializa em programação.
